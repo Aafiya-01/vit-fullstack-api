@@ -1,34 +1,3 @@
-// GET endpoint for testing
-app.get('/bfhl', (req, res) => {
-  res.status(200).json({
-    operation_code: 1
-  });
-});
-
-// Root endpoint
-app.get('/', (req, res) => {
-  res.json({
-    message: "VIT Full Stack API is running",
-    endpoints: {
-      main: "/bfhl (POST)",
-      test: "/bfhl (GET)"
-    }
-  });
-});
-
-// Export for Vercel
-module.exports = app;
-
-// For local development
-if (require.main === module) {
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
-}
-
-
-
 const express = require('express');
 const app = express();
 
