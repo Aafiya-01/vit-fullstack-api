@@ -4,7 +4,7 @@ A REST API built for VIT Full Stack Assignment that processes arrays and returns
 
 ## 🚀 Live API
 
-**API Endpoint**: [Your deployed URL here]/bfhl
+**API Endpoint**: https://bfhl-kjgc.onrender.com/bfhl
 
 ## 📋 Features
 
